@@ -123,7 +123,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\drcandy_public_code_20260226\drcandy\src\board.cpp" />
+    <ClCompile Include="..\..\drcandy_public_code_20260226\drcandy\src\candy.cpp" />
+    <ClCompile Include="..\..\drcandy_public_code_20260226\drcandy\src\controller.cpp" />
+    <ClCompile Include="..\..\drcandy_public_code_20260226\drcandy\src\game.cpp" />
+    <ClCompile Include="..\..\drcandy_public_code_20260226\drcandy\src\graphics.cpp" />
+    <ClCompile Include="..\..\drcandy_public_code_20260226\drcandy\src\main.cpp" />
+    <ClCompile Include="..\..\drcandy_public_code_20260226\drcandy\src\util.cpp" />
+    <ClCompile Include="..\..\drcandy_public_code_20260226\drcandy\test\test.cpp" />
     <ClCompile Include="drcandy.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\drcandy_public_code_20260226\drcandy\src\board.h" />
+    <ClInclude Include="..\..\drcandy_public_code_20260226\drcandy\src\candy.h" />
+    <ClInclude Include="..\..\drcandy_public_code_20260226\drcandy\src\controller.h" />
+    <ClInclude Include="..\..\drcandy_public_code_20260226\drcandy\src\game.h" />
+    <ClInclude Include="..\..\drcandy_public_code_20260226\drcandy\src\graphics.h" />
+    <ClInclude Include="..\..\drcandy_public_code_20260226\drcandy\src\util.h" />
+    <ClInclude Include="..\..\drcandy_public_code_20260226\drcandy\test\test.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
