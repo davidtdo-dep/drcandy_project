@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="test">
+      <UniqueIdentifier>{6c9d37e7-b185-4d78-89e2-ddcd5b9c0ac7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="private">
+      <UniqueIdentifier>{7e37d9e4-3a4d-4ef4-9a13-4770946574a8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="drcandy.cpp">
@@ -40,7 +46,37 @@
       <Filter>Archivos de origen</Filter>
     </ClCompile>
     <ClCompile Include="..\..\drcandy_public_code_20260226\drcandy\test\test.cpp">
-      <Filter>Archivos de origen</Filter>
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\drcandy_public_code_20260226\drcandy\src\private\sdl_wrapper\debug.cpp">
+      <Filter>private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\drcandy_public_code_20260226\drcandy\src\private\sdl_wrapper\image_png.cpp">
+      <Filter>private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\drcandy_public_code_20260226\drcandy\src\private\sdl_wrapper\keyboard.cpp">
+      <Filter>private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\drcandy_public_code_20260226\drcandy\src\private\sdl_wrapper\mouse.cpp">
+      <Filter>private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\drcandy_public_code_20260226\drcandy\src\private\sdl_wrapper\sound.cpp">
+      <Filter>private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\drcandy_public_code_20260226\drcandy\src\private\sdl_wrapper\sprites.cpp">
+      <Filter>private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\drcandy_public_code_20260226\drcandy\src\private\sdl_wrapper\stb_vorbis.cpp">
+      <Filter>private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\drcandy_public_code_20260226\drcandy\src\private\sdl_wrapper\video.cpp">
+      <Filter>private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\drcandy_public_code_20260226\drcandy\src\private\sdl_wrapper\NFont\NFont.cpp">
+      <Filter>private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\drcandy_public_code_20260226\drcandy\src\private\sdl_wrapper\NFont\SDL_FontCache.cpp">
+      <Filter>private</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -63,7 +99,49 @@
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
     <ClInclude Include="..\..\drcandy_public_code_20260226\drcandy\test\test.h">
-      <Filter>Archivos de encabezado</Filter>
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\drcandy_public_code_20260226\drcandy\src\private\sdl_wrapper\debug.h">
+      <Filter>private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\drcandy_public_code_20260226\drcandy\src\private\sdl_wrapper\error.h">
+      <Filter>private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\drcandy_public_code_20260226\drcandy\src\private\sdl_wrapper\image_png.h">
+      <Filter>private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\drcandy_public_code_20260226\drcandy\src\private\sdl_wrapper\keyboard.h">
+      <Filter>private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\drcandy_public_code_20260226\drcandy\src\private\sdl_wrapper\keyboard_sdl.h">
+      <Filter>private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\drcandy_public_code_20260226\drcandy\src\private\sdl_wrapper\libreria.h">
+      <Filter>private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\drcandy_public_code_20260226\drcandy\src\private\sdl_wrapper\mouse.h">
+      <Filter>private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\drcandy_public_code_20260226\drcandy\src\private\sdl_wrapper\sound.h">
+      <Filter>private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\drcandy_public_code_20260226\drcandy\src\private\sdl_wrapper\sprites.h">
+      <Filter>private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\drcandy_public_code_20260226\drcandy\src\private\sdl_wrapper\stb_vorbis.h">
+      <Filter>private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\drcandy_public_code_20260226\drcandy\src\private\sdl_wrapper\video.h">
+      <Filter>private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\drcandy_public_code_20260226\drcandy\src\private\sdl_wrapper\NFont\NFont.h">
+      <Filter>private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\drcandy_public_code_20260226\drcandy\src\private\sdl_wrapper\NFont\NFont_gpu.h">
+      <Filter>private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\drcandy_public_code_20260226\drcandy\src\private\sdl_wrapper\NFont\SDL_FontCache.h">
+      <Filter>private</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

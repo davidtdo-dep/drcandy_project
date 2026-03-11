@@ -129,6 +129,16 @@
     <ClCompile Include="..\..\drcandy_public_code_20260226\drcandy\src\game.cpp" />
     <ClCompile Include="..\..\drcandy_public_code_20260226\drcandy\src\graphics.cpp" />
     <ClCompile Include="..\..\drcandy_public_code_20260226\drcandy\src\main.cpp" />
+    <ClCompile Include="..\..\drcandy_public_code_20260226\drcandy\src\private\sdl_wrapper\debug.cpp" />
+    <ClCompile Include="..\..\drcandy_public_code_20260226\drcandy\src\private\sdl_wrapper\image_png.cpp" />
+    <ClCompile Include="..\..\drcandy_public_code_20260226\drcandy\src\private\sdl_wrapper\keyboard.cpp" />
+    <ClCompile Include="..\..\drcandy_public_code_20260226\drcandy\src\private\sdl_wrapper\mouse.cpp" />
+    <ClCompile Include="..\..\drcandy_public_code_20260226\drcandy\src\private\sdl_wrapper\NFont\NFont.cpp" />
+    <ClCompile Include="..\..\drcandy_public_code_20260226\drcandy\src\private\sdl_wrapper\NFont\SDL_FontCache.cpp" />
+    <ClCompile Include="..\..\drcandy_public_code_20260226\drcandy\src\private\sdl_wrapper\sound.cpp" />
+    <ClCompile Include="..\..\drcandy_public_code_20260226\drcandy\src\private\sdl_wrapper\sprites.cpp" />
+    <ClCompile Include="..\..\drcandy_public_code_20260226\drcandy\src\private\sdl_wrapper\stb_vorbis.cpp" />
+    <ClCompile Include="..\..\drcandy_public_code_20260226\drcandy\src\private\sdl_wrapper\video.cpp" />
     <ClCompile Include="..\..\drcandy_public_code_20260226\drcandy\src\util.cpp" />
     <ClCompile Include="..\..\drcandy_public_code_20260226\drcandy\test\test.cpp" />
     <ClCompile Include="drcandy.cpp" />
@@ -139,6 +149,20 @@
     <ClInclude Include="..\..\drcandy_public_code_20260226\drcandy\src\controller.h" />
     <ClInclude Include="..\..\drcandy_public_code_20260226\drcandy\src\game.h" />
     <ClInclude Include="..\..\drcandy_public_code_20260226\drcandy\src\graphics.h" />
+    <ClInclude Include="..\..\drcandy_public_code_20260226\drcandy\src\private\sdl_wrapper\debug.h" />
+    <ClInclude Include="..\..\drcandy_public_code_20260226\drcandy\src\private\sdl_wrapper\error.h" />
+    <ClInclude Include="..\..\drcandy_public_code_20260226\drcandy\src\private\sdl_wrapper\image_png.h" />
+    <ClInclude Include="..\..\drcandy_public_code_20260226\drcandy\src\private\sdl_wrapper\keyboard.h" />
+    <ClInclude Include="..\..\drcandy_public_code_20260226\drcandy\src\private\sdl_wrapper\keyboard_sdl.h" />
+    <ClInclude Include="..\..\drcandy_public_code_20260226\drcandy\src\private\sdl_wrapper\libreria.h" />
+    <ClInclude Include="..\..\drcandy_public_code_20260226\drcandy\src\private\sdl_wrapper\mouse.h" />
+    <ClInclude Include="..\..\drcandy_public_code_20260226\drcandy\src\private\sdl_wrapper\NFont\NFont.h" />
+    <ClInclude Include="..\..\drcandy_public_code_20260226\drcandy\src\private\sdl_wrapper\NFont\NFont_gpu.h" />
+    <ClInclude Include="..\..\drcandy_public_code_20260226\drcandy\src\private\sdl_wrapper\NFont\SDL_FontCache.h" />
+    <ClInclude Include="..\..\drcandy_public_code_20260226\drcandy\src\private\sdl_wrapper\sound.h" />
+    <ClInclude Include="..\..\drcandy_public_code_20260226\drcandy\src\private\sdl_wrapper\sprites.h" />
+    <ClInclude Include="..\..\drcandy_public_code_20260226\drcandy\src\private\sdl_wrapper\stb_vorbis.h" />
+    <ClInclude Include="..\..\drcandy_public_code_20260226\drcandy\src\private\sdl_wrapper\video.h" />
     <ClInclude Include="..\..\drcandy_public_code_20260226\drcandy\src\util.h" />
     <ClInclude Include="..\..\drcandy_public_code_20260226\drcandy\test\test.h" />
   </ItemGroup>
